@@ -1,6 +1,8 @@
-# Giraffe
-In this repo we gonna create the graph and rule engine idea to test the QA and eventually convo manager
+# Biome Image Classification
+This repo docuemnts the codes and documentations for Biome and season image classifier 
 
 ## Here we go
-to install the corenlp and use it as a running server read this stackoverflow post:
-https://stackoverflow.com/questions/32879532/stanford-nlp-for-python
+All codes are written in Python, to run the code and model, the following packages are used so far:
+### PyTorch  https://pytorch.org/
+### Pandas 
+### Numpy 
