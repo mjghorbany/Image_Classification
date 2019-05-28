@@ -1,7 +1,7 @@
 # Biome Image Classification
 This repo docuemnts the codes and documentations for Biome and season image classifier. A convolutional neural network is used for learning the image patters and classifying them.
 
-
+![Screenshot](cnn.jpeg)
 ![Screenshot](DL.png)
 
 ## Requirements 
