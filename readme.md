@@ -5,6 +5,7 @@ Below the concept of CNN is presented:
 ![Screenshot](cnn.png)
 ![Screenshot](DL.png)
 
+The main building block of CNN is the convolutional layer. Convolution is a mathematical operation to merge two sets of information. In our case the convolution is applied on the input data using a convolution filter to produce a feature map.
 ![Screenshot](convolve.gif)
 
 ## Requirements 
