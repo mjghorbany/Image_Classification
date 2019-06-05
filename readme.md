@@ -11,5 +11,9 @@ The main building block of CNN is the convolutional layer. Convolution is a math
 ## Requirements 
 All codes are written in Python, to run the code and model, the following packages are used so far:
 - PyTorch  https://pytorch.org/
+- ResNet
+- Pickle
 - Pandas 
 - Numpy 
+- PIL
+- skimage
