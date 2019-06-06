@@ -8,6 +8,9 @@ Below the concept of CNN is presented:
 The main building block of CNN is the convolutional layer. Convolution is a mathematical operation to merge two sets of information. In our case the convolution is applied on the input data using a convolution filter to produce a feature map.
 ![Screenshot](convolve.gif)
 
+How resnet works:
+![Screenshot](resnet.png)
+
 ## Requirements 
 All codes are written in Python, to run the code and model, the following packages are used so far:
 - PyTorch  https://pytorch.org/
