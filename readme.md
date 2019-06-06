@@ -9,6 +9,8 @@ The main building block of CNN is the convolutional layer. Convolution is a math
 ![Screenshot](convolve.gif)
 
 How resnet works:
+
+
 ![Screenshot](resnet.png)
 
 ## Requirements 
