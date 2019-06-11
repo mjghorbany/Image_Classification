@@ -9,7 +9,7 @@ The main building block of CNN is the convolutional layer. Convolution is a math
 ![Screenshot](convolve.gif)
 
 How resnet works:
-
+Deep learning layers by default only talk to their neighbirs, Resnet allows all deep learning layers to talk to each other and not only their neighbors. 
 
 ![Screenshot](resnet.png)
 
