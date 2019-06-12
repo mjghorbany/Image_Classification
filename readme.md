@@ -1,5 +1,7 @@
 # Getting started
-This repo contains the code and dataset used to build an image classifier. The model takes an image as an input and predicts the biome and season of the image. The model is a Pytorch deep learning model that uses both CNN and Resnet networks, more detaiuls about each can be found below. 
+This repo contains the code and dataset used to build an image classifier. The model takes an image as an input and predicts the biome and season of the image. The model is a Pytorch deep learning model that uses both CNN and Resnet networks, more details about each can is described below. 
+
+For building a model we first need to clean the dataset. "dataset_preproc.py" file prepares all the images for trainign and "train.ipynb" builds the pytorch model. To run a prediction "predict.ipynb" should be used. this file used the prebuild model (pytorch_model) available in this repo. 
 
 # Using the Code
 - Install all the dependencies. 
