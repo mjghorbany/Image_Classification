@@ -1,17 +1,18 @@
 # Getting started
-This repo contains the code and dataset used to build an image classifier. The model takes an image as an input and predicts the biome and season of the image. The model is a Pytorch deep learning model that uses both CNN and Resnet networks, more details about each can is described below. 
+This repo contains the code and dataset used to build an image classifier. The model takes an image as input and predicts the biome and season of the image. The model is a Pytorch deep learning model that uses both CNN and Resnet networks, more details about each can is described below. 
 
-For building a model we first need to clean the dataset. "dataset_preproc.py" file prepares all the images for trainign and "train.ipynb" builds the pytorch model. To run a prediction "predict.ipynb" should be used. this file used the prebuild model (pytorch_model) available in this repo. 
+For building a model we first need to clean the dataset. "dataset_preproc.py" file prepares all the images for training and "train.ipynb" builds the pytorch model. To run a prediction on any image the "predict.ipynb" script should be used. This file uses the prebuild model (pytorch_model) available in this repo. 
 
 # Using the Code
 - Install all the dependencies. 
 - Install Anaconda Notebooks
 - Open the predict jupyter file (predict.ipynb)
-- Make sure that the model file (pytorch_model) is in the same directory
+- Make sure that the model file (pytorch_model) is in the same directory as the script
 - Make sure the image you want to test is in the correct directory
 - Modify the jupyter file with the image name you want to run
 
-- There is a SKlearn KNN file for calculating the most frequent colors in an image (Hex2Name.ipynb)
+For calculating most frequesnt colors in an image:
+- Use "Hex2Name.ipynb" script (This script uses an SKlearn KNN ML model for calculating the most frequent colors in an image) 
 
 
 
