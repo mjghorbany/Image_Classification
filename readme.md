@@ -1,4 +1,19 @@
-# Biome Image Classification
+# Getting started
+This repo contains the code and dataset used to build an image classifier. The model takes an image as an input and predicts the biome and season of the image. The model is a Pytorch deep learning model that uses both CNN and Resnet networks, more detaiuls about each can be found below. 
+
+# Using the Code
+- Install all the dependencies. 
+- Install Anaconda Notebooks
+- Open the predict jupyter file (predict.ipynb)
+- Make sure that the model file (pytorch_model) is in the same directory
+- Make sure the image you want to test is in the correct directory
+- Modify the jupyter file with the image name you want to run
+
+- There is a SKlearn KNN file for calculating the most frequent colors in an image (Hex2Name.ipynb)
+
+
+
+# Deep Learning Network
 This repo docuemnts the codes and documentations for Biome and season image classifier. A residual neural network (ResNet) with convolutional neural network (CNN) (https://en.wikipedia.org/wiki/Residual_neural_network) is used for learning the image patters and classifying them.
 
 Below the concept of CNN is presented: 
@@ -13,6 +28,6 @@ A ResNet is an artificial neural network (ANN) of a kind that builds on construc
 
 ![Screenshot](resnet.png)
 
-## Requirements 
+## Dependencies
 All codes are written in Python, to run the code and model, the following packages are required:
 - PyTorch, SKlearn, ResNet, Pickle, Pandas, Numpy, PIL, Skimage
